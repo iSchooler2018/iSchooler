@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iSchooler</string>
+    <string name="action_settings">Настройки</string>
+    <string name="nav_about_school">Школа</string>
+    <string name="nav_about_school_info">Контакты</string>
+    <string name="nav_about_school_rings">Звонки</string>
+    <string name="nav_about_school_teachers">Учителя</string>
+    <string name="nav_timetable">Расписание</string>
+    <string name="nav_rating">Оценки</string>
+    <string name="nav_task">Задания</string>
+</resources>

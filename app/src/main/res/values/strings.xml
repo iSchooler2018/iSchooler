@@ -2,8 +2,15 @@
     <string name="app_name">iSchooler</string>
     <string name="navigation_drawer_open">Open navigation drawer...</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title" translatable="false">iSchooler</string>
+    <string name="nav_header_subtitle" translatable="false">iSchooler2018@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="nav_about_school">School</string>
+    <string name="nav_about_school_info">Contacts</string>
+    <string name="nav_about_school_rings">Rings</string>
+    <string name="nav_about_school_teachers">Teachers</string>
+    <string name="nav_timetable">Timetable</string>
+    <string name="nav_rating">Rating</string>
+    <string name="nav_task">Task</string>
 </resources>

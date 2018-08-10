@@ -5,34 +5,31 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_about_school"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="@string/nav_about_school">
+            <menu>
+                <item
+                    android:id="@+id/nav_about_school_info"
+                    android:title="@string/nav_about_school_info" />
+                <item
+                    android:id="@+id/nav_about_school_rings"
+                    android:title="@string/nav_about_school_rings" />
+                <item
+                    android:id="@+id/nav_about_school_teachers"
+                    android:title="@string/nav_about_school_teachers" />
+            </menu>
+        </item>
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+    <item
+        android:id="@+id/nav_timetable"
+        android:title="@string/nav_timetable" />
+    <item
+        android:id="@+id/nav_rating"
+        android:title="@string/nav_rating" />
+    <item
+        android:id="@+id/nav_task"
+        android:title="@string/nav_task" />
 
 </menu>
